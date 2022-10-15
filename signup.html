@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="./login.html">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <img src="./assets/LogoDePicadilla 1.png" alt="logo" class="logo">
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/menu.png" alt="icono menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle" class="input-check"> 
+
+
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="#">HOME</a>                    
+                </li>
+                <li>
+                    <a href="#">NOSOTROS</a>
+                </li>
+                <li>
+                    <a href="#">ALMACEN</a>
+                </li>
+                <li>
+                    <a href="#">PROMOS</a>
+                </li>
+                <li>
+                    <a href="#">FIAMBRES</a>
+                </li>
+                <li>
+                    <a href="#">UBICACION</a>
+                </li>
+            </ul>
+
+            
+
+            <label for="icon-toggle" class="icon-label">
+                <img src="./assets/CARRO ON.png" alt="carritos-compra" class="cart-icon">
+            </label>
+            <input type="checkbox" id="icon-label" class="input-check" >
+
+
+            <label for="icon-label" class="cart-label">
+                <img src="./assets/Frame 19.png" alt="carritos-compra" class="mensaje-icon">
+                <a href="./signup.html"></a>
+            </label>
+            <input type="checkbox" id="icon-label" class="input-check">
+
+            <label for="icon-labele" class="cart-label">
+                <img src="./assets/PERFIL ON.png" alt="carritos-compra" class="perfil-icon" >
+            </label>
+            <input type="checkbox" id="icon-label" class="input-check">
+
+        </nav>
+
+    </header>
+
+    <section >
+        <div class="Signup">
+            <div class="Signup-contenedor">
+                <img src="./assets/LoginPicada.png" alt="" class="img-picada">
+                <form action="" class="form">                
+                    <h1>SUMATE AL CLUB</h1>
+                    <div class="separador">
+                        <span class="linea1"></span>
+                        <span class="rombo"></span>
+                        <span class="linea2"></span>
+                    </div>
+                    <div class="form-container-signup">
+                        <div class="formulario-detalle">
+                            <label for="email" class="form-label-signup">Escribe tu mail</label>
+                            <input type="email" id="email" required placeholder="Escribe tu mail" class="form-input-signup">   
+                        </div>
+                        <div class="formulario-detalle">
+                            <label for="name" class="form-label-signup">Elige una contraseña</label>
+                            <input type="password" id="name" required placeholder="Elige una contraseña" class="form-input-signup">   
+                        </div>
+                        <p>Min 6 carácteres, números y letras</p>
+                        <div class="formulario-detalle">
+                            <label for="username" class="form-label-signup">Elige un username</label>
+                            <input type="name" id="username" required placeholder="Elige un username" class="form-input-signup">   
+                        </div>
+                        <div class="formulario-detalle-date">
+                            <label for="fechaDeNacimiento" class="form-label-signup">Fecha de nacimiento</label>
+                            <input type="date" id="fechaDeNacimiento" required class="form-input-date" >
+                        </div>
+                        <input type="submit" class="input-submit-signup" value="REGISTRATE">    
+                    </div>
+                    <div class="separador-botones">
+                        <span class="linea3"></span>
+                        <span class="o">O</span>
+                        <span class="linea4"></span>
+                    </div>
+                    <div class="boton-google-signup">
+                        <img src="./assets/Logo-Google.png" alt="" class="logo-boton">
+                        <input type="submit" class="form-submit-button" value="Continua con Google">                    
+                    </div>
+                    <div class="boton-facebook-signup">
+                        <img src="./assets/Logo-Facebook.png" alt="" class="logo-boton">
+                        <input type="submit" class="form-submit-button" value="Continua con Facebook">
+                    </div>
+                    <div class="signup-texto">
+                        <h2>¿Ya sos parte del club?
+                            <button onclick="location.href='http://127.0.0.1:3002/login.html'"> 
+                                <a href="#">Inicia sesión</a> 
+                            </button> 
+                        </h2>
+                        <p class="texto">
+                            Al unirme a Depicadilla, confirmo que he leído y acepto los <span>Términos
+                            de servicio</span> y la <span>Política de privacidad</span> de Depicadilla, y que recibo
+                            correos electrónicos y actualizaciones.
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>

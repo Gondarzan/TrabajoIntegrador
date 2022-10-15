@@ -1,0 +1,229 @@
+/* Tablets */
+@media  (max-width: 1264px ){
+    .navbar{
+        gap: 10px;
+    }
+
+    .navbar-list{
+        position: absolute;
+        top: 140px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: var(--background-body);
+        border: 2px solid var(--text-gold);
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 5px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-list a{
+        font-size: 18px;
+    }
+
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img{
+        width: 25px;
+        height: 25px;
+    }
+
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+
+    .hero-detalle{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 120px 0;
+
+
+    }
+
+    .hero-detalle h1{
+        width: 100%;
+        max-width: 500px;
+        font-size: 45pt;
+ 
+    }
+
+    .hero-texto{
+        width: 60%;
+        max-width: 600px;
+    }
+
+
+    .marcas-listado{
+        width:  100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;    
+        width: 20%;  
+        display: none;
+        background: var(--nav-bg);  
+    }
+
+    .nosotros{
+        background: var(--background-lg);       
+    }
+    
+    .nosotros-detalle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nosotros-texto{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .nosotros-texto p{
+        font-size: 10pt;
+    }
+
+    .nosotros-detalle img{
+        display: none;
+    }
+
+    .nosotros-texto a{
+        padding: 10px 30px ;
+        font-size: 10pt;
+    }
+
+    .promo-lista{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;       
+    }
+
+    .fiambres-lista{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;          
+    }
+
+
+    .elegirnos-card{
+    }
+
+    .elegirnos h2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .elegirnos-lista p{
+        font-size: 10pt;
+
+        
+    }
+
+    .elegirnos-lista{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .ubicacion-card{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 250px;
+    }
+
+    .ubicacion-card img{
+        display: none;
+    }
+
+    .ubicacion-texto h3{
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    .ubicacion-texto p, .ubicacion-texto span{
+        text-align: center;
+        font-size: 10pt;
+
+    }
+
+    .footer-links{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .loggin{
+        width: 80%;
+        max-width: 60px;
+        gap: 20px;
+    }
+
+    form{
+        padding: 0 50px;
+        width: 50%;
+    }
+    .form-container-login{
+        margin: 60px;
+        width: 120%;
+        padding: 5px;
+    }
+
+    .formulario-detalle{
+        padding: 0px 20px 0 20px;
+        width: 60%;
+    }
+
+
+    .img-picada-login{
+        display: none;
+    }
+
+    .container-login{
+        display: flex;
+        padding: 10px 20px 10px 20px;
+
+    }
+
+    .form-container-login span{
+        display: none;
+    }
+
+    .container-login label{
+        width: 60%;
+        line-height: 12px;        
+    }
+
+    .input-submit{
+        padding: 0px 20px 0 20px;
+        width: 60%;
+    }
+
+    .form-submit-button{
+        padding: 0px 20px 0 20px;
+        width: 0%;
+    }
+
+
+}
