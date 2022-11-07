@@ -1219,3 +1219,131 @@ form h2{
     font-weight: 300;
 }
 
+
+
+/* CONTACTO */
+
+.contacto{
+    max-width: 1170px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.contacto-contenedor{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact-info{
+    background-color: var(--text-gold);
+    color: var(--text-white);
+    height: 650px;
+    width: 400px;
+
+}
+
+.contact-info h1{
+    margin: 150px 0px 0px 30px;
+    font-family: 'Literata', serif;
+    font-size: 24pt;
+    font-weight: 600;
+}
+
+.contact-info p{
+    margin: 60px 0px 0px 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact-form{
+    margin: 0px;
+    padding: 2em;
+    background: var(--background-lg);
+    width: 800px;
+
+}
+
+
+.formulario-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 20px 10px 0;
+}
+
+
+.formulario-detalle-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-contact{
+    margin: 30px 0;
+}
+
+#mensaje{
+    width: 92%;
+
+}
+
+.formulario-detalle-contact input,
+.formulario-detalle-contact textarea{
+    width: 85%;
+    padding: .5em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #CAA462;
+    color: var(--text-white);
+}
+
+.form-label-contact{
+    color: var(--text-white);
+}
+
+.formulario-detalle-contact label{
+    color: var(--text-white);
+}
+
+.input-submit-contact{
+    position: relative;
+    right: -485px;
+    background: var(--text-gold);
+    color: var(--text-white);
+    width: 190px;
+    height: 53px;
+    border: none;
+    cursor: pointer;
+    margin: 30px 0;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.input-submit-contact:hover{
+    background: var(--text-white);
+    color: var(--text-gold);
+
+}
+
+.input-submit-contact:focus{
+    background: var(--text-gold);
+    color: var(--text-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

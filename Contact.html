@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="./login.html">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <img src="./assets/LogoDePicadilla 1.png" alt="logo" class="logo">
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/menu.png" alt="icono menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle" class="input-check"> 
+
+
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="http://127.0.0.1:3000/index.html">HOME</a>                    
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/index.html">NOSOTROS</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/index.html">ALMACEN</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/index.html">PROMOS</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/index.html">FIAMBRES</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/index.html">UBICACION</a>
+                </li>
+            </ul>
+
+            
+
+            <label for="icon-toggle" class="icon-label">
+                <img src="./assets/CARRO ON.png" alt="carritos-compra" class="cart-icon">
+            </label>
+            <input type="checkbox" id="icon-label" class="input-check" >
+
+
+            <label for="icon-label" class="cart-label">
+                <img src="./assets/Frame 19.png" alt="carritos-compra" class="mensaje-icon">
+                <a href="./signup.html"></a>
+            </label>
+            <input type="checkbox" id="icon-label" class="input-check">
+
+            <label for="loggin-label" class="perfil-label">
+                <button  onclick="location.href='http://127.0.0.1:3000/signup.html'">
+                    <img src="./assets/PERFIL ON.png" alt="carritos-compra" class="perfil-icon"  >
+                </button>
+            </label>
+
+        </nav>
+
+    </header>
+
+    <section >
+        <div class="contacto">
+            <div class="contacto-contenedor">
+                <form action="" class="contact-form">  
+                    <div class="form-container-contact">
+                        <div class="formulario-contact">
+                            <div class="formulario-detalle-contact">
+                                <label for="name" class="form-label-contact">Nombre</label>
+                                <input type="text" id="name" required placeholder="Escribe tu nombre aqui" class="form-input-contact">   
+                            </div>
+                            <div class="formulario-detalle-contact">
+                                <label for="lastnam" class="form-label-contact">Apellido</label>
+                                <input type="text" id="lastname" required placeholder="Escribe tu apellido aqui" class="form-input-contact">   
+                            </div>
+    
+                            <div class="formulario-detalle-contact">
+                                <label for="mail" class="form-label-contact">Email</label>
+                                <input type="email" id="mail" required placeholder="Escribe tu email aqui" class="form-input-contact">   
+                            </div>
+                            <div class="formulario-detalle-contact">
+                                <label for="numero" class="form-label-contact">Número de celular</label>
+                                <input type="text" id="numero" required placeholder="Escribe tu numero de celular aqui" class="form-input-contact">   
+                            </div>
+
+                        </div>
+                        <div class="formulario-detalle-contact">
+                            <label for="text" class="form-label-contact">Mensaje</label> 
+                            <textarea name="" id="mensaje" cols="10" rows="2" class="form-input-contact"></textarea>  
+                        </div>
+                        <input type="submit" class="input-submit-contact" value="ENVIAR">    
+                    </div>               
+                </form>
+                <div class="contact-info">
+                    <h1>CONTACTO</h1>
+                    <p>Visita nuestro local
+                        <br>Pte. Manuel Quintana 373
+                        <br>CABA, Argentina<br>
+                        <br>+5411 4312-4456<br>
+                        +54911 3677-7717 (Whatsapp)                            
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
