@@ -253,32 +253,29 @@ header{
 }
 
 .nosotros{
-    background-image: url(nosotros.png);
     background-repeat: no-repeat;
     background-size: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-
 }
 
 .nosotros-detalle{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px;
+    padding: 80px 20px;
 }
 
 .nosotros-detalle img{
     width: 1200px;
-    padding: 0px 30px 0px 80px;
+    padding: 0px 10px 0px 20px;
 
 } 
 
 .nosotros-texto{
     color: var(--text-white);
-    padding: 0px 100px 0px 30px;
+    padding: 10px 100px 0px 20px;
 }
 
 .nosotros-texto h2{
@@ -289,9 +286,10 @@ header{
 }
 
 .nosotros-texto p{
-    padding: 35px 0px 65px 0px;
+    margin: 0 0 0px 0px ;
+    padding: 10px 40px 65px 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
 
 }
 
@@ -420,23 +418,22 @@ header{
 
 .promo{
     background-color: var(--background);
-    gap: 60px;
-    padding: 50px 50px;
+    padding: 60px 0px;
     flex-direction: column;
 }
 
 .promo h2{
+    color: var(--bg-bgrey);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--bg-bgrey);
     font-weight: 600;
     font-size: 25pt;
     font-family: 'Literata', serif;
 }
 
 .promo-card{
-    padding: 20px 20px;
+    padding: 30px;
 }
 
 .promo-lista{
@@ -502,8 +499,7 @@ header{
 .fiambres{
     background: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)), url(img_background.png);
     background-size: 100%;
-    gap: 60px;
-    padding: 50px 50px;   
+    padding: 60px 0px;
     flex-direction: column; 
 }
 
@@ -524,6 +520,8 @@ header{
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+    padding: 30px;
+
 }
 
 .fiambre-texto{
@@ -533,7 +531,7 @@ header{
 .fiambre-detalle h3{
     color: var(--text-white);
     font-family: 'Literata', serif;
-    font-size: 15pt;
+    font-size: 12pt;
     font-weight: 600;
 }
 
@@ -602,7 +600,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     padding: 50px 50px; 
 }
 
@@ -629,7 +627,6 @@ header{
 /*UBICACION*/
 
 #body-background{
-    background-image: url(Picada-Elegirnos.png);
     background-size: 100% ;
     background-repeat: no-repeat;
 
@@ -646,9 +643,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--bg-border-grey);
-    font-weight: 400;
-    font-size: 25pt;
+    color: var(--bg-bgrey);
+    font-weight: 600;    font-size: 25pt;
     font-family: 'Literata', serif;
 }
 
@@ -656,7 +652,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 20px 20px;
-    padding: 30px 120px;
+
 }
 
 .ubicacion-card img{
@@ -666,12 +662,11 @@ header{
     background-color: var(--background);
     border: 20px solid #141414;
     width: 50%;
-    height: 20%;
 
 }
 
 .ubicacion-texto h3{
-    color: var(--text-gold);
+    color: var(--text-white);
     font-family: 'Literata', serif;
     font-size: 30pt;
     font-weight: 400;
@@ -688,27 +683,27 @@ header{
 .ubicacion-texto p{
     padding: 40px 0;
     font-size: 15pt;
-    color: var(--text-white);
+    color: var(--bg-bbte-grey);
     font-family: 'Literata', serif;
     font-weight: 300;
 }
 
 .ubicacion-texto span{
-    color: var(--text-white);
+    color: var(--bg-bbte-grey);
     font-size: 17pt;
     font-family: 'Literata', serif;
     font-weight: 300;
 }
 
 .ubicacion-texto a{
-    color: var(--text-white);
+    color: var(--text-gold);
     font-size: 16pt;
     font-family: 'Literata', serif;
     font-weight: 600;
 }
 
 .ubicacion-texto a:hover{
-    color: var(--text-gold);
+    color: var(--text-white);
     font-size: 16pt;
     font-family: 'Literata', serif;
     font-weight: 600;
@@ -755,7 +750,7 @@ footer span{
 
 footer a:hover{
     font-family: 'Literata', serif;
-    color: var(--text-gold);
+    color: var(--text-white);
     font-weight: 600;
 }
 
@@ -822,7 +817,6 @@ section{
     align-items: center;
     padding: 8px 0 25px 0;
     flex-wrap: wrap;
-
 }
 
 .form-container-login span{
@@ -840,6 +834,7 @@ section{
 
 .checkbox-login{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .checkbox-login label{
@@ -979,6 +974,7 @@ form h2{
     font-family: 'Literata', serif;
     color: var(--text-white);
     font-weight: 600;
+    font-size: 20px;
 }
 
 .login-texto a:hover{
@@ -1153,6 +1149,7 @@ form p{
 
 }
 
+
 .boton-google-signup input{
     cursor: pointer;
     background: none;
@@ -1203,6 +1200,7 @@ form h2{
     font-family: 'Literata', serif;
     color: var(--text-white);
     font-weight: 600;
+    font-size: 20px;
 }
 
 .signup-texto a:hover{

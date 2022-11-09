@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./index.html">
     <link rel="stylesheet" href="./login.html">
+    <link rel="stylesheet" href="./mediaqueries.css">
     <title>Document</title>
 </head>
 <body>
@@ -69,9 +70,9 @@
         <div class="Signup">
             <div class="Signup-contenedor">
                 <img src="./assets/LoginPicada.png" alt="" class="img-picada">
-                <form action="" class="form">                
+                <form action="" class="form" id="form-signup">                
                     <h1>SUMATE AL CLUB</h1>
-                    <div class="separador">
+                    <div class="separador" id="separador-signup">
                         <span class="linea1"></span>
                         <span class="rombo"></span>
                         <span class="linea2"></span>
@@ -81,7 +82,7 @@
                             <label for="email" class="form-label-signup">Escribe tu mail</label>
                             <input type="email" id="email" required placeholder="Escribe tu mail" class="form-input-signup">   
                         </div>
-                        <div class="formulario-detalle">
+                        <div class="formulario-detalle" id="password">
                             <label for="name" class="form-label-signup">Elige una contraseña</label>
                             <input type="password" id="name" required placeholder="Elige una contraseña" class="form-input-signup">   
                         </div>
@@ -96,7 +97,7 @@
                         </div>
                         <input type="submit" class="input-submit-signup" value="REGISTRATE">    
                     </div>
-                    <div class="separador-botones">
+                    <div class="separador-botones" id="separador-signup">
                         <span class="linea3"></span>
                         <span class="o">O</span>
                         <span class="linea4"></span>
